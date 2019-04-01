@@ -16,13 +16,36 @@ The frontend will generate components, which is by `React` according to the json
 `PageSerivce` is a UI components container in one page.
 
 ### Button
+- Normal Button, html button or div which can be clicked.
+- Image Button
 
 ### Image
+Html image
 
 ### Input
+Input accept one line text input
+
+### Text Area
+Input accept multiple line text input
 
 ### KeyValuePair
 `KeyValuePair` is used to generate a pair with two components, like title and input, or input and button.
 
 ### Style
 Simple styles are supported to set text **bold**, etc.
+
+### Navigation
+Navigate between pages. 
+
+Methods:
+- push
+- pop
+- popToRoot
+
+## Notification
+
+Notification in `WebSocket` or `Http2`.
+
+Frontend shall change when notifications received.
+
+
