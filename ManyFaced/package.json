@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "start": "nodemon --exec ./node_modules/.bin/babel-node --extensions '.ts,.tsx' src/index.ts",
-    "test": "jest --passWithNoTests",
+    "test": "jest",
     "type-check": "tsc --noEmit",
     "type-check:watch": "yarn type-check -- --watch",
     "build": "yarn build:types && yarn build:js",
@@ -32,7 +32,7 @@
     "@types/koa": "^2.0.48",
     "@types/koa-bodyparser": "^4.2.2",
     "@types/koa-router": "^7.0.40",
-    "babel-jest": "^24.5.0",
+    "babel-jest": "^24.7.1",
     "jest": "^24.7.1",
     "nodemon": "^1.18.10",
     "prettier": "^1.17.0"
