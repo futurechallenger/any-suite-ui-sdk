@@ -1,3 +1,5 @@
+import { CardWidget } from './CardWidget';
+
 /**
  * ButtonSet
  */
