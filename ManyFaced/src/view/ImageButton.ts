@@ -1,0 +1,6 @@
+/**
+ * 
+ */
+class ImageButton {}
+
+export ImageButton;

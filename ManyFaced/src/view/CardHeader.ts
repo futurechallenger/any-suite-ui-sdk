@@ -9,3 +9,5 @@ class CardHeader {
     return this
   }
 }
+
+export CardHeader;

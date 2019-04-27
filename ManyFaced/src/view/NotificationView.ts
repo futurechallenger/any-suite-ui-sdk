@@ -1,0 +1,5 @@
+class NotificationView {
+
+};
+
+export NotificationView;
