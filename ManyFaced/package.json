@@ -33,7 +33,7 @@
     "@types/koa-bodyparser": "^4.2.2",
     "@types/koa-router": "^7.0.40",
     "babel-jest": "^24.5.0",
-    "jest": "^24.5.0",
+    "jest": "^24.7.1",
     "nodemon": "^1.18.10",
     "prettier": "^1.17.0"
   }
