@@ -1,16 +1,18 @@
 /**
- * CardAction
+ * CardAction, base class of actions
  */
 class CardAction {
-  private fn: string;
-  private p: any;
+  private _fn: string;
+  private _params: any;
 
   setFunctionName(fn: string): CardAction {
+    this._fn = fn;
     return this;
   }
 
-  setParameters({}): CardAction {
-
+  setParameters(params: any): CardAction {
+    this._params = params;
+    return this;
   }
 }
 
