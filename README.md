@@ -48,4 +48,7 @@ Notification in `WebSocket` or `Http2`.
 
 Frontend shall change when notifications received.
 
+## TODO
+- [ ] Add actions in UI elements.
+
 
